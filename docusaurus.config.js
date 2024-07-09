@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site', // 网站titile
-  tagline: 'Dinosaurs are cool',
+  title: '星子系统', // 网站titile
+  tagline: '一个强大的系统分子',
   favicon: 'img/favicon.ico', // 网站小图标路径
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com', // 部署后网站被访问的跟目录
+  url: 'https://zhaomenghao.github.io/', // 部署后网站被访问的跟目录
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/', // 根目录 如果url地址是xxx.github.io/demo 那么baseUrl就是/demo
+  baseUrl: '/gitHub', // 根目录 如果url地址是xxx.github.io/demo 那么baseUrl就是/demo
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name. 你github的用户名
-  projectName: 'docusaurus', // Usually your repo name. 仓库名
+  organizationName: 'zhaomenghao', // Usually your GitHub org/user name. 你github的用户名
+  projectName: 'https://zhaomenghao.github.io/gitHub', // Usually your repo name. 仓库名
   deploymentBranch:"gh-pages", // 部署到那个分支
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
